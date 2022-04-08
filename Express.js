@@ -1,20 +1,35 @@
-const express = require('express');
-const app = express();
-
-app.get('', (req, resp) => {
-    console.log("Express.js");
-    resp.send("hello world");
-});
-app.get('/about', (req, resp) => {
-    resp.send("hello world");
-});
-
-app.listen(5000);
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const express = require('express');
+// const app = express();
+
+// app.get('', (req, resp) => {
+//     console.log("Express.js");
+//     resp.send("hello world");
+// });
+// app.get('/about', (req, resp) => {
+//     resp.send("hello world");
+// });
+
+// app.listen(5000);
 
 
 
